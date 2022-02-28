@@ -6,6 +6,7 @@ import {
   FormLabel,
   Heading,
   HStack,
+  Image,
   Input,
   Link,
   Spacer,
@@ -15,12 +16,16 @@ import {
 export default function Home() {
   return (
     <Flex
-      justifyContent={"center"}
       alignItems="center"
       h="100vh"
       background="#3399FF"
+      flexDirection="column"
     >
-      <VStack spacing={6}>
+      <Flex justifyContent={"space-between"} w="55vw" mt={6} mb={6}>
+        <Image src="./srm.png" h="90px" />
+        <Image src="./adc.png" h="95px" />
+      </Flex>
+      <VStack spacing={6} justifyContent={"center"}>
         <Heading color="#E6E6E6">Academia - Student Portal</Heading>
         <VStack background="white" w="100%" p={6} rounded={12} spacing={8}>
           <Heading
@@ -38,7 +43,7 @@ export default function Home() {
           </FormControl>
           <FormControl pl={6}>
             <FormLabel>Password</FormLabel>
-            <Input placeholder="Password" w="90%" rounded={1} />
+            <Input placeholder="Password" w="90%" rounded={1} type="password" />
           </FormControl>
           <Button
             rounded={1}
