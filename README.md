@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## This repository is a submission for the Assignment: `Sample webpage from SRM website` for the subject `18CSE302J`
+The webpage that is replicated for this project: https://academia.srmist.edu.in/
+![image](https://user-images.githubusercontent.com/52799877/155967474-39f47aa1-8d8f-495c-95d7-f3b1fe722b98.png)
+
+Developed webpage:
+![image](https://user-images.githubusercontent.com/52799877/155967917-d2c21d72-4aa9-4a7d-a07a-57a21c845aa9.png)
+
+
 ## Getting Started
 
 First, run the development server:
