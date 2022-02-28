@@ -10,6 +10,7 @@ import {
   Input,
   Link,
   Spacer,
+  Text,
   VStack,
 } from "@chakra-ui/react";
 
@@ -57,8 +58,11 @@ export default function Home() {
             Forgot Password
           </Link>
         </VStack>
+        <Text color="white" pt={16}>
+          {" "}
+          Developed by Abhuday Mishra
+        </Text>
       </VStack>
     </Flex>
   );
 }
-// rgb(51 153 255)
